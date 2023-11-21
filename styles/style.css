@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header__nav-box{
+    padding: 20px 0 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-box-title{
+    color: #000;
+font-family: 'RB';
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+}
+
+.header__nav-box-list{
+    display: flex;
+    gap: 15px;
+}
+
+.header__nav-box-link,
+.header__nav-box-link1{
+    color: #3A3838;
+text-align: right;
+font-family: R'RB';
+font-size: 18px;
+font-weight: 700;
+}
+
+.header__nav-box-link:hover,
+.header__nav-box-link1:hover{
+    color: #EF4423;
+}
+
+.header__nav-box-link1{
+    color: #FFF;
+}
+
+.header__img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.main__top-item{
+    width: 25%;
+    background: #B71C1C;
+    
+}
+
+.main__top-item-box{
+    background: #B71C1C;
+    padding: 8px 15px 15px 15px;
+}
+
+.main__top-item-img{
+    display: block;
+    width: 100%;
+}
+
+.main__top-item-title{
+    color: #FFF;
+font-family: 'RB';
+font-size: 19px;
+font-weight: 700;
+}
+
+.main__top-item-title{
+    margin-bottom: 8px;   
+}
+
+.main__top-item-text{
+    color: #EBEBEB;
+font-family: 'RR';
+font-size: 16px;
+font-weight: 400;
+}
+
+.main__top{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+        
+}
+
+.main__top-item2{
+    width: 25%;
+    position: relative;
+    background-color: #6A1B9A;
+}
+
+.main__top-item-pic2 {
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+}
+ 
+
+.main__top-item-box2{
+    background: #6A1B9A;
+    padding: 15px 15px 7px 15px;
+}
+
+.main__top-item-title2{
+    color: #FFF;
+font-family: 'RB';
+font-size: 19px;
+font-weight: 700;
+margin-bottom: 9px;
+}
+
+.main__top-item-text2{
+    color: #EBEBEB;
+font-family: 'RR';
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 9px;
+}
+
+.main__top-item-img2{
+    display: block;
+    width: 100%;
+}
+
+.main__top-item3{
+    width: 25%;
+    background: #303F9F;
+}
+
+.main__top-item-box3{
+    background: #303F9F;
+    padding: 8px 15px 16px 15px;
+}
+
+.main__top-item-img3{
+    display: block;
+    width: 100%;
+}
+
+.main__top-item-title3{
+    color: #FFF;
+font-family: 'RB';
+font-size: 19px;
+font-weight: 700;
+}
+
+.main__top-item-title3{
+    margin-bottom: 7px;   
+}
+
+.main__top-item-text3{
+    color: #EBEBEB;
+font-family: 'RR';
+font-size: 16px;
+font-weight: 400;
+}
+
+.main__top-item4{
+    width: 25%;
+    position: relative;
+    background: #00695C;
+}
+
+.main__top-item-pic4 { 
+    position: absolute; 
+    bottom: 0;  
+    width: 100%; 
+}
+
+.main__top-item-box4{
+    background: #00695C;
+    padding: 14px 15px 8px 15px;
+}
+
+.main__top-item-title4{
+    color: #FFF;
+font-family: 'RB';
+font-size: 19px;
+font-weight: 700;
+margin-bottom: 9px;
+}
+
+.main__top-item-text4{
+    color: #EBEBEB;
+font-family: 'RR';
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 9px;
+}
+
+.main__top-item-img4{
+    display: block;
+    width: 100%;
+     
+}
+
+
+.main__bottom-box-title{
+    color: #3A3838;
+font-family: 'RR';
+font-size: 22px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.main__bottom-box{
+    padding: 40px 0 50px 0;
+}
+
+.main__bottom-box-content{
+    background: #EDEDED;
+}
+
+.main__bottom-box-item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main__bottom-content-right{
+    padding: 0px 0 0px 30px;
+}
+
+.main__right-title{
+    color: #3A3838;
+font-family: 'RB';
+font-size: 22px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+.main__right-text{
+    color: #686868;
+font-family: 'RR';
+font-size: 18px;
+font-weight: 400;
+text-align: justify;
+}
+
+.footer__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 0;
+}
+
+.footer{
+    background: #3A3838;
+}
+
+.footer__box-logo-title{
+    color: #FFF;
+font-family: 'RB';
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+}
